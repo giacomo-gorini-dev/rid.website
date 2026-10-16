@@ -3,7 +3,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background-color: var(--nero);
+  background-color: var(--grigio);
   box-sizing: border-box;
   padding: 20px;
   ul {

@@ -9,12 +9,16 @@
   --font-minimal: sans-serif;
   --font-size-large: 1.5rem;
   --font-weight-large: 700;
+  --font-elegant:
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 body {
   background-color: var(--nero);
-  width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
+}
+
+main {
+  background-color: var(--bianco);
 }
