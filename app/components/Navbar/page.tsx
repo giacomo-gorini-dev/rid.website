@@ -7,7 +7,7 @@ import "./style.css";
 export default function Navbar(): ReactNode {
   return (
     <nav>
-      <Link href={"/home"}>
+      <Link href={"/"}>
         <Image
           src="/LogoRidGorini.webp"
           alt="RID"
