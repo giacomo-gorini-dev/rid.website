@@ -1,0 +1,32 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+  background-color: var(--nero);
+  margin: 20px 0 0 0;
+  a:not(li a) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    color: var(--bianco);
+    font-size: calc(var(--font-size-large) - 0.5rem);
+    font-family: var(--font-minimal);
+  }
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  a {
+    text-decoration: none;
+    color: var(--bianco);
+    font-size: var(--font-size-large);
+    font-family: var(--font-minimal);
+  }
+}
