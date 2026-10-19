@@ -174,7 +174,6 @@ export default function Home() {
           height={400}
         ></Image>
       </section>
-      <Footer />
     </>
   );
 }

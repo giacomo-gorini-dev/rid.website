@@ -23,9 +23,6 @@ export default function Navbar(): ReactNode {
         <li>
           <Link href={"/chi-siamo"}>Chi Siamo</Link>
         </li>
-        <li>
-          <Link href={"/la-nostra-storia"}>La Nostra Storia</Link>
-        </li>
         <li className="social">
           <a
             href="https://api.whatsapp.com/send/?phone=393914794972&text&type=phone_number&app_absent=0"
